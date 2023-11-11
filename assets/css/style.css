@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  /*color: #18d26e;*/
   transition: 0.5s;
   text-decoration: none;
 }
@@ -28,7 +28,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #e6328f;
   outline: none;
   text-decoration: none;
 }
@@ -60,7 +60,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #18d26e;
+  background: #e6328f;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -74,7 +74,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2ce782;
+  background: #e6328f;
   color: #fff;
 }
 
@@ -661,7 +661,7 @@ section {
 }
 
 #featured-services i {
-  color: #18d26e;
+  color: #e6328f;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -815,7 +815,7 @@ section {
 }
 
 #services .icon i {
-  color: #18d26e;
+  color: #e6328f;
   font-size: 36px;
   line-height: 0;
   transition: 0.5s;
@@ -910,7 +910,7 @@ section {
   border: 2px solid #e6328f;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 320px) {
   #hero1 {
     background-attachment: fixed;
   }
@@ -919,16 +919,17 @@ section {
 @media (max-width: 768px) {
   #hero1 {
     height: 100vh;
+    padding: auto 15px;
   }
 
   #hero1 h1 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 1.5;
   }
 
-  #hero1 h2 {
+  #hero1 p {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.5;
   }
 }
 /*============end of fixed section===================*/
@@ -939,6 +940,7 @@ section {
   background-size: cover;
   padding: 60px 0;
   background-color: #e6328f;
+  padding: 30px 10px;
 }
 
 #call-to-action h3 {
@@ -971,12 +973,49 @@ section {
   color: #e6328f;
 }
 
-/* Call To Action Section
+/* end of Call To Action Section
 --------------------------------*/
-#skills {
+
+/*=================Our facilities=================*/
+#facilities {
   padding: 60px 0;
 }
+#facilities .about-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
 
+#facilities .about-col:hover {
+  background: #e6328f;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about-col:hover>.title{
+  color: #fff;
+}
+#about-us{
+  margin-right: 0px;
+  color: #e6328f;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about-col .title{
+  padding: 10px;
+  text-align: center;
+  color: #e6328f;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.about-col p{
+  padding: 0rem 15px 40px 15px;
+}
 #skills .progress {
   height: 35px;
   margin-bottom: 10px;
@@ -1033,7 +1072,7 @@ section {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #18d26e;
+  color: #e6328f;
 }
 
 #facts .counters p {
@@ -1560,7 +1599,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #e6328f;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -2140,7 +2179,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #1d3344;
   padding: 60px 0 30px 0;
 }
 
@@ -2156,7 +2195,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #e6328f;
 }
 
 #footer .footer-top .footer-info p {
@@ -2169,7 +2208,7 @@ section {
 
 #footer .footer-top .social-links a {
   display: inline-block;
-  background: #333;
+  background: #e6328f;
   color: #eee;
   line-height: 1;
   margin-right: 4px;
@@ -2188,8 +2227,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
-  color: #fff;
+  color: #e6328f;
+  background: #fff;
 }
 
 #footer .footer-top h4 {
@@ -2216,7 +2255,7 @@ section {
 }
 
 #footer .footer-top h4::after {
-  background: #18d26e;
+  background: #e6328f;
   width: 60px;
 }
 
@@ -2249,7 +2288,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: #e6328f;
 }
 
 #footer .footer-top .footer-contact {
@@ -2271,7 +2310,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #18d26e;
+  background: #e6328f;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -2282,7 +2321,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #13a456;
+  background: #e6328f;
 }
 
 #footer .copyright {
@@ -2294,4 +2333,9 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+@media (max-width:575px){
+  #cont{
+    padding: 5px 30px;
+  }
 }
