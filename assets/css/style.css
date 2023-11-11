@@ -404,7 +404,14 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 110vh;
+  }
+  #carousel-item{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    place-content: center;
+    place-items: center;
   }
 }
 
@@ -506,10 +513,12 @@ h6 {
 }
 
 #hero .carousel-control-prev,
-#hero .carousel-control-next {
+#hero .carousel-control-next{
   width: 10%;
   color: #e6328f;
   font-weight: 700;
+  font-size: large;
+
 }
 
 @media (min-width: 1024px) {
@@ -517,6 +526,7 @@ h6 {
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
+    font-weight: 700;
   }
 }
 
@@ -734,6 +744,7 @@ section {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+  height: 100%;
 }
 #about-us{
   margin-right: 0px;
