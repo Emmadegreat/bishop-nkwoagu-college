@@ -149,9 +149,9 @@ h6 {
   /*border-left: 4px solid #f3bf98;*/
 }
 
-#header .logo img {
-  height: 65px;
-  width: 65px;
+#header .logo img{
+  height: 70px;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -159,8 +159,8 @@ h6 {
     height: 60px;
   }
   #header .logo img{
-    width: 60px;
-    height: 60px;
+    width: 95%;
+    height: 55px;
     padding-bottom: 5px;
   }
 }
@@ -292,8 +292,8 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #e6328f;
-  font-size: 46px;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: 700;
   cursor: pointer;
   display: none;
   line-height: 0;
