@@ -976,6 +976,12 @@ article{
   padding: 30px 10px;
 }
 
+#marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #call-to-action h3 {
   color: #fff;
   font-size: 28px;
@@ -1018,6 +1024,7 @@ article{
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+  height: 100%;
 }
 
 #text{
@@ -1031,6 +1038,7 @@ article{
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
   color: #fff;
+
 }
 
 .about-col:hover>.title{
