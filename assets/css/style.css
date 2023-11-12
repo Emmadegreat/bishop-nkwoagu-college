@@ -101,7 +101,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #18d26e;
+  border-top: 6px solid #e6328f;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -149,18 +149,18 @@ h6 {
   /*border-left: 4px solid #f3bf98;*/
 }
 
-#header .logo a {
-  color: #fff;
-}
-
 #header .logo img {
   height: 80px;
   width: 80px;
 }
 
-@media (max-width: 992px) {
-  #header .logo {
-    font-size: 28px;
+@media (max-width: 991px) {
+  #header{
+    height: 60px;
+  }
+  #header .logo img{
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -193,7 +193,7 @@ h6 {
   justify-content: space-between;
   padding: 8px 15px;
   border-radius: 7px;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: #e6328f;
@@ -290,8 +290,9 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
+  color: #e6328f;
+  font-size: 34px;
+  font-weight: 700;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -315,7 +316,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(26, 26, 26, 0.9);
+  /*background: rgba(171, 44, 44, 0.9);*/
   transition: 0.3s;
   z-index: 999;
 }
@@ -329,11 +330,10 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  top: 60px;
+  right: 0px;
+  left: 0px;
+  padding: 10px 0px 30px 0px;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -341,15 +341,16 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-size: 15px;
   color: #333333;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #18d26e;
+  color: #e6328f;
 }
 
 .navbar-mobile .getstarted,
@@ -384,7 +385,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #18d26e;
+  color: #e6328f;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
