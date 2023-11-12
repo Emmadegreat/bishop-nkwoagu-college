@@ -308,6 +308,11 @@ h6 {
   .navbar ul {
     display: none;
   }
+  .navbar ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 .navbar-mobile {
@@ -380,7 +385,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
