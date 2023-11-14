@@ -15,6 +15,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
 *{
   font-family: "Open Sans", sans-serif;
 }
@@ -192,10 +193,10 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 15px;
+  padding: 8px 10px;
   border-radius: 7px;
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #e6328f;
   white-space: nowrap;
@@ -309,9 +310,9 @@ h6 {
     display: none;
   }
   .navbar ul li a{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Poppins', sans-serif
   }
 }
 
@@ -382,6 +383,7 @@ h6 {
 
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
+  font-size: 14px;
 }
 
 .navbar-mobile .dropdown ul a i {
