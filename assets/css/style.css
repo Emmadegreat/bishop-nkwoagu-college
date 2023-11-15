@@ -59,6 +59,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #e6328f;
@@ -66,6 +67,10 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+}
+
+.whatsapp{
+
 }
 
 .back-to-top i {
@@ -1587,6 +1592,14 @@ article{
   padding: 60px 0;
 }
 
+.submit-btn{
+  width:100%;
+  background: #e6328f;
+  color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  border-width: 0px;
+}
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;

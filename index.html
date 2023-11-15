@@ -91,7 +91,7 @@
     </div>
   </header><!-- End Header -->
 
-  <section><!--=====Carousel-hero-section==============-->
+  <section id="hero"><!--=====Carousel-hero-section==============-->
     <div class="slid-container">
 
       <div class="carousel-slide">
@@ -913,24 +913,28 @@
             <div class="form-group">
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="submit-btn">
+            </div>
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
 
       </div>
     </section><!-- End Contact Section -->
 
-    <div><!-------whatsapp-link------->
-      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-      <div class="elfsight-app-d8bc2f89-9b5e-48b9-8367-aeff9056b4dd" data-elfsight-app-lazy style="position: fixed;width:60px;height:60px"></div>
-    </div>
+
 
   </main><!-- End #main -->
+
+  <div class="whatsapp"><!-------whatsapp-link------->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-d8bc2f89-9b5e-48b9-8367-aeff9056b4dd" data-elfsight-app-lazy style="width:60px;height:60px"></div>
+  </div>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -988,7 +992,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright &nbsp; &nbsp;<strong><a href="https://my-app-ruby-theta.vercel.app" target="_blank">EMFCONZULT</a></strong>.&nbsp;&nbsp; All Rights Reserved
+        &copy; Copyright &nbsp; <span id="date"></span> &nbsp;<strong><a href="https://my-app-ruby-theta.vercel.app" target="_blank">EMFCONZULT</a></strong>.&nbsp;&nbsp; All Rights Reserved
       </div>
       <div class="credits">
 
@@ -1000,6 +1004,8 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
+
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

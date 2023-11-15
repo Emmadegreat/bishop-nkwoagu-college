@@ -64,3 +64,5 @@ $(document).ready(function () {
     clearInterval(intervalId); // Stop automatic sliding on button click
   });
 });
+
+document.getElementById("date").innerHTML = new Date().getFullYear();
