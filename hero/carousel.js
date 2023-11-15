@@ -28,7 +28,7 @@
 
 
 $(document).ready(function () {
-  const $carouselContainer = $('.carousel-container');
+  const $carouselContainer = $('.slid-container');
   const $carouselSlides = $('.carousel-slide');
   const totalSlides = $carouselSlides.length;
   let currentIndex = 0;
@@ -52,13 +52,13 @@ $(document).ready(function () {
   const intervalId = setInterval(autoSlide, 3000);
 
   // Button click events
-  $('.prev-button').on('click', function () {
+  $('.prev').on('click', function () {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     showSlide(currentIndex);
     clearInterval(intervalId); // Stop automatic sliding on button click
   });
 
-  $('.next-button').on('click', function () {
+  $('.next').on('click', function () {
     currentIndex = (currentIndex + 1) % totalSlides;
     showSlide(currentIndex);
     clearInterval(intervalId); // Stop automatic sliding on button click
