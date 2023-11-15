@@ -1,32 +1,3 @@
-/*$(document).ready(function(){
-  let currentIndex = 0;
-  const totalSlides = $('.slide').length;
-
-  $('.next').click(function(){
-    if (currentIndex < totalSlides - 1) {
-      currentIndex++;
-    } else {
-      currentIndex = 0;
-    }
-    updateCarousel();
-  });
-
-  $('.prev').click(function(){
-    if (currentIndex > 0) {
-      currentIndex--;
-    } else {
-      currentIndex = totalSlides - 1;
-    }
-    updateCarousel();
-  });
-
-  function updateCarousel() {
-    const translateValue = -currentIndex * 100 + '%';
-    $('.carousel').css('transform', 'translateX(' + translateValue + ')');
-  }
-});*/
-
-
 $(document).ready(function () {
   const $carouselContainer = $('.slid-container');
   const $carouselSlides = $('.carousel-slide');
