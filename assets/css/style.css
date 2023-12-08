@@ -63,7 +63,26 @@ h6 {
 }
 
 .whatsapp{
+  position: fixed;
+  right: 0px;
+  left: 90%;
+  bottom: 0;
+  z-index: 1000;
+}
+.whatsapp a img{
+  width: 100px;
+  height: 100px;
+}
 
+@media (max-width: 768px){
+  .whatsapp{
+    left: 83%;
+  }
+}
+@media (max-width: 500px){
+  .whatsapp{
+    left: 73%;
+  }
 }
 
 .back-to-top i {
