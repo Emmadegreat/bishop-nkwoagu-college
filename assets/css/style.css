@@ -4,8 +4,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
-  font-family:  Poppins;
+  color: #474646;
 }
 
 
@@ -13,7 +12,7 @@ body {
   font-family:  Poppins;
 }
 
-a {
+a{
   color: #360492;
   transition: 0.5s;
   text-decoration: none;
@@ -232,7 +231,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #e6328f;
+  color: #360492;
   margin: 0px 5px;
 }
 .navbar a:hover, .navbar a:focus, .navbar .active:focus, .navbar li:hover>a{
@@ -264,7 +263,7 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   text-transform: none;
-  color: #666666;
+  color: #0b0b0b;
 }
 
 .navbar .dropdown ul a i {
@@ -274,7 +273,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #fff;
+  color: #360492;
 }
 
 .navbar .dropdown:hover>ul {
@@ -310,7 +309,7 @@ h6 {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: #e6328f;
+  color: #360492;
   font-size: 36px;
   font-weight: 700;
   cursor: pointer;
@@ -367,7 +366,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 8px 20px;
   font-size: 16px;
-  color: #333333;
+  color: #090909;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -598,13 +597,26 @@ article{
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+  flex-basis: 40%;
   height: 100%;
 }
-#about-us{
+.about-us{
   margin-right: 0px;
   color: #1d3344;
   font-weight: 700;
   margin-bottom: 5px;
+}
+
+.about-us span{
+  color: #360492;
+}
+.content{
+  padding-right: 2rem;
+}
+.founder{
+
+  max-height: 600px;
+  width: 100%;
 }
 @media (max-width:768px){
   #about{
