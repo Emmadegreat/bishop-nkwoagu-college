@@ -5,6 +5,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+//alert('oooooooooo');
+
+
+
+
 (function() {
   "use strict";
 
@@ -325,3 +330,26 @@
   new PureCounter();
 
 })()
+
+let aboutCol = document.querySelectorAll('.test');
+
+aboutCol.forEach(column => {
+  const Col = column.querySelector('.about-col');
+  const h_2 = column.querySelector('.title');
+  const p = column.querySelector('p');
+  //const list = column.querySelector('.content');
+
+  Col.addEventListener('mouseover', () => {
+    Col.style.backgroundColor = '#360492';
+    h_2.style.color = '#fff';
+    p.style.color = '#fff';
+    //list.style.color = '#fff';
+  })
+
+  Col.addEventListener('mouseleave', () => {
+    Col.style.backgroundColor = '#ffffff';
+    h_2.style.color = '#360492';
+    p.style.color = '#333';
+    //list.style.color = '#333';
+  })
+});
