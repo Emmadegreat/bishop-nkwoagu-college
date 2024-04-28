@@ -2513,7 +2513,12 @@ section {
     font-size: 1rem;
   }
   .link222{
-    font-size: 0.8rem;
-    width: 100%;
+    font-size: 1rem;
+    padding: 0.9rem 0.8rem;
+  }
+  .link22{
+    width: 85%;
+    background-color: #360490;
+    padding: 0.9rem 0rem;
   }
 }
