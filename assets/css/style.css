@@ -587,7 +587,7 @@ section {
 }
 
 .about-col p{
-  text-align: left;
+  text-align: justify;
 }
 
 #about .about-col {
@@ -626,7 +626,7 @@ section {
 .founder h3{
   font-weight: 600;
   padding: 0.5rem 0rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #fff;
   background: #360492;
 }
@@ -634,6 +634,7 @@ section {
 .content{
   flex-basis: 48%;
   order: 1;
+  text-align: justify;
 }
 
 .founder em{
@@ -652,7 +653,7 @@ section {
 
 @media screen and (max-width:500px) {
   .founder h3{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -2225,6 +2226,34 @@ section {
   }
 }
 
+.join-us{
+  position: relative;
+}
+
+.join-us p{
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #360490;
+  padding: 0.6rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px){
+  .join-us p{
+    position: absolute;
+    bottom: -10px;
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    font-size: 1rem;
+
+  }
+}
+
 .about-hero{
   background: linear-gradient(135deg, rgba(7, 7, 40, 0.9), rgba(4, 17, 45, 0.9)),
               url("../newimages/staircase.jpg") no-repeat center top / cover;
@@ -2267,6 +2296,10 @@ section {
 
 
 /**==============about page==========*/
+
+.about-content{
+  text-align: justify;
+}
 .rules-header{
   background-color: #360490;
   padding: 2rem 3rem;
@@ -2298,6 +2331,7 @@ section {
 }
 .rules-section article ol li{
   margin-bottom: 0.6rem;
+  text-align: justify;
 }
 
 .rules-part2{
