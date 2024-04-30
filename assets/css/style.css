@@ -1068,6 +1068,15 @@ section {
 
 /* Portfolio Section now gallery
 --------------------------------*/
+.gallery-first-section{
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-first-section div{
+  flex-basis: 48%;
+  margin-bottom: 2rem;
+}
+
 #portfolio {
   padding: 60px 0;
 }
@@ -1096,7 +1105,7 @@ section {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #e6328f;
+  background: #360490;
   color: #fff;
 }
 
@@ -1158,7 +1167,7 @@ section {
 
 #portfolio .portfolio-item figure .link-preview:hover,
 #portfolio .portfolio-item figure .link-details:hover {
-  background: #e6328f;
+  background: #360490;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i,
@@ -1217,6 +1226,12 @@ section {
   font-weight: 500;
   font-size: 14px;
   text-transform:none;
+}
+
+@media screen and (max-width: 768px){
+  .gallery-first-section{
+    flex-direction: column;
+  }
 }
 
 /*--------------------------------------------------------------
