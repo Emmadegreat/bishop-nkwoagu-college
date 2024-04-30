@@ -1068,13 +1068,53 @@ section {
 
 /* Portfolio Section now gallery
 --------------------------------*/
-.gallery-first-section{
+.gallery-bishop, .gallery-founder{
   display: flex;
   justify-content: space-between;
 }
-.gallery-first-section div{
+.gallery-bishop div, .gallery-founder div{
   flex-basis: 48%;
   margin-bottom: 2rem;
+}
+
+.gallery-bishop img{
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.gallery-founder img{
+  border-top-right-radius: 30%;
+
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #360490;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.description h4{
+  font-size: 1.2rem;
+
+}
+.team-header{
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #360490;
+  text-decoration: underline;
+}
+
+.management{
+  display: flex;
+  justify-content: space-between;
+}
+
+.management>div{
+  flex-basis: 31%;
 }
 
 #portfolio {
@@ -1229,10 +1269,30 @@ section {
 }
 
 @media screen and (max-width: 768px){
-  .gallery-first-section{
+  .gallery-bishop, .gallery-founder{
+    flex-direction: column;
+  }
+  .team-header{
+    font-size: 1.8rem;
+  }
+  .management{
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 500px){
+  .team-header{
+    font-size: 1.1rem;
+  }
+  .description h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .description span{
+    font-size: 0.7rem;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
