@@ -1666,8 +1666,10 @@ section {
  margin-top: 0rem;
 }
 
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+  .contact-info1{
+    flex-direction: column;
+  }
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
