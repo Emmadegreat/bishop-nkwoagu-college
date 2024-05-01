@@ -1102,8 +1102,12 @@ section {
 
 .description h4{
   font-size: 1.2rem;
-
 }
+
+.description span{
+  font-family: cursive;
+}
+
 .team-header{
   text-align: center;
   font-weight: 700;
@@ -1266,7 +1270,8 @@ section {
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #3f3c3c;
+  color: #360490;
+  font-family: cursive;
   font-weight: 500;
   font-size: 14px;
   text-transform:none;
@@ -1592,7 +1597,7 @@ section {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#contact .contact-info {
+/*#contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -1602,9 +1607,9 @@ section {
   display: inline-block;
   margin-bottom: 10px;
   color: #360490;
-}
+}*/
 
-#contact .contact-info address,
+/*#contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
   color: #000;
@@ -1620,16 +1625,45 @@ section {
 
 #contact .contact-info a {
   color: #000;
+}*/
+
+.contact-info1{
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.contact-part1, .form{
+  flex-basis: 48%;
+}
+
+#contact .contact-phone a, .contact-email a{
+  color: #000;
 }
 
 #contact .contact-info a:hover {
   color: #360490;
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
+.contact-part1 .contact-address,
+.contact-phone,
+.contact-email {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 0.3rem;
+  padding: 0rem;
+  border: 1px solid red
+}
+
+.contact-part1 .contact-address i,
+.contact-part1 .contact-phone i,
+.contact-part1 .contact-email i{
+ font-size: 2.5rem;
+ text-align: start;
+ color: #360490;
+ margin-top: 0rem;
 }
 
 @media (min-width: 768px) {
@@ -1700,7 +1734,7 @@ section {
 }
 
 #contact .php-email-form input,
-#contact .php-email-form textarea {-b
+#contact .php-email-form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;

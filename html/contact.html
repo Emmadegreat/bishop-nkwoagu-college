@@ -102,62 +102,64 @@
 
         </div>
 
-        <div class="container row contact-info">
+        <div class="container contact-info1">
 
-          <div class="col-md-4">
+          <div class="contact-part1">
+
             <div class="contact-address">
               <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>St. Luke’s Anglican Church Compound Kpirikpiri, Abakaliki, Ebonyi State.</address>
+              <h4>Address</h4>
+              <address>St. Luke’s Anglican Church Compound Kpirikpiri, <br>Abakaliki, Ebonyi State.</address>
             </div>
-          </div>
 
-          <div class="col-md-4">
             <div class="contact-phone">
               <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
+              <h4>Phone Number</h4>
               <p><a href="tel:+2348034088603">+2348034088603</a></p>
             </div>
-          </div>
 
-          <div class="col-md-4">
             <div class="contact-email">
               <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
+              <h4>Email</h4>
               <p><a href="bnck2023@gmail.com">bnck2023@gmail.com</a></p>
             </div>
+
           </div>
 
+          <div class="form">
+            <form role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="text-bg-success w-100">Send Message</button>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+            </form>
         </div>
 
 
 
-        <div class="form">
-          <form role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="text-bg-success w-100">Send Message</button>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-          </form>
         </div>
+
+
+
+
 
       </div>
     </section><!-- End Contact Section ==============-->
