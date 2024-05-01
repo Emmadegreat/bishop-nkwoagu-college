@@ -1068,6 +1068,57 @@ section {
 
 /* Portfolio Section now gallery
 --------------------------------*/
+.gallery-hero{
+
+  background: url("../newimages/bnck-team-members (1).png") no-repeat center top / cover;
+  height: 100vh;
+  min-width: 100%;
+  object-fit: cover;
+  place-items: center;
+  place-content: center;
+  border-bottom-right-radius: 6rem;
+}
+
+.gallery-hero h1{
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #fff;
+  top: 500px;
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  left: 50px;
+  right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-hero{
+    height: 80vh;
+  }
+  .gallery-hero h1{
+    font-size: 1.5rem;
+    left: 30px;
+    right: 30px;
+    top: 400px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .gallery-hero{
+    height: 50vh;
+    min-width: 100%;
+  }
+  .gallery-hero h1{
+    font-size: 1.3rem;
+    left: 25px;
+    right: 25px;
+    top: 300px;
+  }
+
+}
+
 .gallery-bishop, .gallery-founder{
   display: flex;
   justify-content: space-between;
@@ -1629,13 +1680,17 @@ section {
 
 .contact-info1{
   display: flex;
-  border: 2px solid red;
   justify-content: space-between;
   padding-top: 2rem;
 }
 
 .contact-part1, .form{
   flex-basis: 48%;
+}
+
+.contact-part1 h4{
+  margin-bottom: 0rem;
+  color: #360490;
 }
 
 #contact .contact-phone a, .contact-email a{
@@ -1654,16 +1709,20 @@ section {
   align-items: start;
   margin-bottom: 0.3rem;
   padding: 0rem;
-  border: 1px solid red
 }
 
 .contact-part1 .contact-address i,
 .contact-part1 .contact-phone i,
 .contact-part1 .contact-email i{
- font-size: 2.5rem;
+ font-size: 2rem;
  text-align: start;
  color: #360490;
  margin-top: 0rem;
+}
+
+.contact-icon-wrapper{
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -1677,7 +1736,7 @@ section {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
