@@ -18,6 +18,10 @@ a{
   text-decoration: none;
 }
 
+h3{
+  text-decoration: none !important;
+}
+
 a:hover,
 a:active,
 a:focus {
@@ -428,37 +432,39 @@ section {
 
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+.section-header h3, .statistics-header{
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  text-decoration: none;
   position: relative;
   padding-bottom: 0px;
 }
 
-.section-header h3::before {
+.section-header h3::before, .statistics-header::before{
   content: "";
   position: absolute;
   display: block;
-  width: 250px;
-  height: 2px;
-  background: #360492;
+  width: 120px;
+  height: 1px;
+  background: #1d3344;
   bottom: 1px;
-  left: calc(45% - 60px);
+  left: calc(50% - 60px);
 }
 
-/*.section-header h3::after {
+.section-header h3::after, .statistics-header::after{
   content: "";
   position: absolute;
   display: block;
-  width: 140px;
+  width: 40px;
   height: 3px;
-  background: #360492;
+  background: #360490;
   bottom: 0;
   left: calc(50% - 20px);
-}*/
+}
+
 
 .section-header p {
   text-align: center;
@@ -656,6 +662,10 @@ section {
 @media screen and (max-width:500px) {
   .founder h3{
     font-size: 0.8rem;
+  }
+
+  h3{
+    font-size: 1rem;
   }
 }
 
@@ -1159,13 +1169,6 @@ section {
   font-family: cursive;
 }
 
-.team-header{
-  text-align: center;
-  font-weight: 700;
-  margin-top: 2rem;
-  color: #360490;
-  text-decoration: underline;
-}
 
 .management{
   display: flex;
@@ -1332,9 +1335,7 @@ section {
   .gallery-bishop, .gallery-founder{
     flex-direction: column;
   }
-  .team-header{
-    font-size: 1.8rem;
-  }
+
   .management{
     flex-direction: column;
   }
@@ -1621,9 +1622,6 @@ section {
 
 /* Contact Section
 --------------------------------*/
-#contact {
-
-}
 
 .contact-hero{
   position: relative;
@@ -2443,6 +2441,10 @@ section {
     font-size: 1rem;
 
   }
+
+  .accordion-wrapper h3{
+    font-size: 25px;
+  }
 }
 
 .about-hero{
@@ -2482,6 +2484,10 @@ section {
     color: #fff;
     position: absolute;
     left: 30%;
+  }
+
+  .accordion-wrapper h3{
+    font-size: 20px;
   }
 }
 
