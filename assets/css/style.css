@@ -22,6 +22,12 @@ h3{
   text-decoration: none !important;
 }
 
+@media screen and (max-width: 600px){
+  h3{
+    font-size: 1rem !important;
+  }
+}
+
 a:hover,
 a:active,
 a:focus {
@@ -440,7 +446,7 @@ section {
 
 /* Sections Header
 --------------------------------*/
-.section-header h3, .statistics-header{
+.section-header h3{
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
@@ -451,7 +457,7 @@ section {
   padding-bottom: 0px;
 }
 
-.section-header h3::before, .statistics-header::before{
+/*.section-header h3::before, .statistics-header::before{
   content: "";
   position: absolute;
   display: block;
@@ -471,11 +477,11 @@ section {
   background: #360490;
   bottom: 0;
   left: calc(50% - 20px);
-}
+}*/
 
 
 .section-header p {
-  text-align: center;
+  text-align: justify;
   padding-bottom: 30px;
   color: #333;
 }
@@ -1042,7 +1048,7 @@ section {
   z-index: 9;
 }
 
-#facts .section-header h3::before {
+/*#facts .section-header h3::before {
   content: "";
   position: absolute;
   display: block;
@@ -1051,7 +1057,7 @@ section {
   background: #360492;
   bottom: 1px;
   left: calc(44% - 54px);
-}
+}*/
 
 #facts .container {
   position: relative;
@@ -1083,6 +1089,17 @@ section {
   text-align: center;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  #facts .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #360492;
+  }
+}
+
 
 /* Portfolio Section now gallery
 --------------------------------*/
