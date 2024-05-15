@@ -2676,9 +2676,11 @@ section {
 
 }
 
+
 .form-wrapper form input{
   height: 46px;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 form .submit{
