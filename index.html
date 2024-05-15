@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -87,7 +87,7 @@
   </header><!-- End Header -->
 
   <section id="hero"><!--=====Carousel-hero-section==============-->
-    <div class="slid-container">
+    <!--<div class="slid-container">
 
       <div class="carousel-slide">
         <img src="./assets/newimages/staircase.jpg" alt="slide 1">
@@ -125,9 +125,44 @@
       </div>
     </div>
     <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
+    <button class="next">&#10095;</button>-->
   </section>
   </section><!-- End Hero Section -->
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/newimages/staircase.jpg" alt="food" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/newimages/staircase2.png" alt="food1" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/newimages/green-house.png" alt="food2" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/newimages/physics-lab1.jpg" alt="food2" class="d-block w-100">
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>-->
+      </div>
 
   <main id="main">
 
@@ -302,7 +337,7 @@
           <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="about-col">
               <div class="img">
-                <img src="./assets/newimages/library2.jpg" style="width:100%" alt="" class="img-fluid">
+                <img src="./assets/newimages/new-library.png" style="width:100%" alt="" class="img-fluid">
               </div>
               <h2 class="title">Library</h2>
               <p>
@@ -809,6 +844,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

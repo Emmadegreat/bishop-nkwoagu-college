@@ -20,7 +20,7 @@ $(document).ready(function () {
   showSlide(currentIndex);
 
   // Set an interval for automatic slide change (adjust the interval as needed)
-  const intervalId = setInterval(autoSlide, 3000);
+  const intervalId = setInterval(autoSlide, 2000);
 
   // Button click events
   $('.prev').on('click', function () {
