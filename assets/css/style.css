@@ -2576,13 +2576,13 @@ form .submit{
 
 .modal{
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 15%;
     right: 15%;
     display: flex;
     flex-direction: column;
     bottom: 20% !important;
-    height: 500px;
+    height: 80vh;
     width: 70%;
     z-index: 1001;
     overflow: hidden;
@@ -2605,7 +2605,7 @@ form .submit{
 }
 .modal-button{
     position: absolute;
-    right: 40px;
+    right: 30px;
     top: 40px;
     width: 60px;
     cursor: pointer;
@@ -2630,10 +2630,10 @@ form .submit{
 @media screen and (max-width: 768px) {
   .modal{
     top: 10%;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    height: 550px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 85vh;
     bottom: 5%;
   }
 }
