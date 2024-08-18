@@ -353,3 +353,19 @@ aboutCol.forEach(column => {
     //list.style.color = '#333';
   })
 });
+
+//Modal
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.querySelector('.modalcontainer');
+    const closeButton = document.querySelector('.modal-button');
+
+
+    modal.style.display = 'flex';
+    document.body.classList.add('modal-open');
+
+    closeButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+        document.body.classList.remove('modal-open');
+    });
+});
