@@ -2629,11 +2629,11 @@ form .submit{
 
 @media screen and (max-width: 768px) {
   .modal{
-    top: 10%;
+    top: 12%;
     left: 5%;
     right: 5%;
     width: 90%;
-    height: 85vh;
+    height: 80vh;
     bottom: 5%;
   }
 }
