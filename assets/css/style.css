@@ -2582,7 +2582,7 @@ form .submit{
     display: flex;
     flex-direction: column;
     bottom: 20% !important;
-    height: 520px;
+    height: 500px;
     width: 70%;
     z-index: 1001;
     overflow: hidden;
@@ -2623,9 +2623,8 @@ form .submit{
 }
 
 .modal-button:hover{
-  background-color: white;
-  border: 1px solid red;
-  color: red;
+  background-color: red;;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
