@@ -2587,7 +2587,7 @@ form .submit{
     z-index: 1001;
     overflow: hidden;
     opacity: 1;
-    padding: 16px;
+    padding: 10px;
     background-color: white;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -2630,10 +2630,11 @@ form .submit{
 
 @media screen and (max-width: 768px) {
   .modal{
-    top: 12%;
+    top: 10%;
     left: 10%;
     right: 10%;
     width: 80%;
+    height: 550px;
     bottom: 5%;
   }
 }
