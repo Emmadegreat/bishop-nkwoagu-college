@@ -2582,12 +2582,12 @@ form .submit{
     display: flex;
     flex-direction: column;
     bottom: 20% !important;
-    height: 80vh;
+    height: 85vh;
     width: 70%;
     z-index: 1001;
     overflow: hidden;
     opacity: 1;
-    padding: 10px;
+    padding: 24px;
     background-color: white;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -2596,25 +2596,26 @@ form .submit{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.modal p{
+.modal div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
   color: black;
-  padding: 16px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  margin-top: 46px;
 }
 .modal-button{
     position: absolute;
-    right: 30px;
-    top: 40px;
+    right: 20px;
+    top: 36px;
     width: 60px;
     cursor: pointer;
     height: 36px;
-    font-weight: 600;
+    font-weight: 400;
     background-color: red;
     border-radius: 5px;
     border-width: 0px;
-    font-size: 18px;
+    font-size: 16px;
     color: aliceblue;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -2633,7 +2634,7 @@ form .submit{
     left: 5%;
     right: 5%;
     width: 90%;
-    height: 75vh;
+    height: 80vh;
     bottom: 5%;
   }
 }
